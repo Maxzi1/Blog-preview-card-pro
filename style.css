@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'mycustomfont';
+    src: url('Figtree-VariableFont_wght.ttf') format('truetype'); 
+    font-weight: bold;
+}
+
+
+
+body{
+    background-color: #f4d04e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: mycustomfont;
+}
+.container{
+    background-color: #fff;
+    width: 384px;
+    height: 522px;
+    padding: 25px;
+    border-radius: 20px;
+    border: 1px solid #080808;
+    overflow: visible;
+    box-shadow: 12px 12px 0px rgba(0, 0, 0, 1);
+    flex-direction: column;
+
+
+
+    background: white;
+}
+.image img{
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.learning-container .learning{
+    background-color: #f4d04e;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    
+
+}
+.learning-container p{
+    border: 10px 0;
+    
+}
+h1{
+    font-weight: bold;
+    font-family: mycustomfont;
+    margin-top: 10px;
+
+}
+.words p{
+    color: #6b6b6b;
+    margin-bottom: 15px;
+}
+.author{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+.author p{
+    font-weight: bold;
+}
+.author img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
